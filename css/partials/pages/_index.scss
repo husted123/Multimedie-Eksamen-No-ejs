@@ -1,0 +1,47 @@
+.index__main {
+    .main__intro {
+        position: relative;
+        height:100vh;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        background-color:rgba(0, 0, 0, 0.363);
+        background-blend-mode: darken;
+        background-image: url('../media/images/intro.jpg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+
+        .intro__logo {
+            width:30vw;
+            img {
+                width:100%;
+            }
+        }
+        .intro__arrow {
+            position:absolute;
+            bottom:10%;
+            left:50%;
+            transform:translateX(-50%);
+            height:7vh;
+            animation:shakeDownwards 1s infinite ease-in alternate;
+            cursor: pointer;
+            img {
+                height:100%;
+            }
+        }
+    }
+    .main__concept {
+        display:flex;
+        justify-content: space-around;
+        padding:12px;
+        div {
+            padding:24px;
+            max-width: 270px;
+            img {
+                width:100%;
+                padding-bottom:12px;
+            }
+        }
+    }
+}

@@ -1,0 +1,65 @@
+.partner__main {
+    background-image: linear-gradient(to left, #BDBBBE 0%, #9D9EA3 100%), radial-gradient(88% 271%, rgba(255, 255, 255, 0.25) 0%, rgba(254, 254, 254, 0.25) 1%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(50% 100%, rgba(255, 255, 255, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
+    background-blend-mode: normal, lighten, soft-light;
+    margin-top: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;;
+
+    img{
+   width: 25vw;
+
+   -webkit-filter: grayscale(100%);
+   filter: grayscale(100%);
+   padding: 45px;
+}
+img:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+.partnerContainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+ 
+    align-items: center;
+}
+
+#textDisplay{
+    font-size: 20px;
+    width: 38vw;
+    padding: 20px;
+    text-align: center;
+    letter-spacing: -1px;
+    margin: 0 auto;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+    background-blend-mode: multiply,multiply;
+    color: rgb(252, 252, 252);
+    padding: 25px;
+    border-radius: 3px;
+
+
+}
+
+.mobileText{
+    display:none;
+}
+
+@media screen and (max-width: 768px) {
+    #textDisplay{
+    display: none;
+    }
+    .mobileText{
+        color: black;
+        display:block;
+        text-align: center;
+
+    }
+    img{padding: 0;
+    margin-top:80px;
+    width: 300px;
+}
+}
+}

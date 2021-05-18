@@ -1,0 +1,14 @@
+@import 'partials/resets'; // Resets
+@import 'partials/variables'; // Variables
+
+//Components
+@import 'partials/header';
+@import 'partials/footer';
+
+// Pages || Full page styling
+@import 'partials/pages/index';
+@import 'partials/pages/partner';
+@import 'partials/pages/referencer';
+
+//keyframes
+@import 'partials/keyframes';

@@ -1,0 +1,21 @@
+@keyframes navLinkFade{
+	0%{
+		opacity: 0;
+		transform:translateX(50px);
+	}
+	100%{
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+
+@keyframes fadeInOut {
+	0%{opacity: 0;}
+	50%{opacity: 1;}
+	100%{opacity: 0;}
+}
+
+@keyframes shakeDownwards { //only aplicable for the arrow on index page
+    0% { bottom:10%; }
+    100% { bottom:8%; }
+}
